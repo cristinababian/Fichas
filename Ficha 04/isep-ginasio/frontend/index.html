@@ -38,10 +38,12 @@
             <a href="#servicos">Serviços</a>
             <a href="#aula-grupo">Aulas de Grupo</a>
             <a href="#precario">Preçario</a>
-            <!-- Área Cliente -->
-            <div class="nav-cliente">
-                <a href="login_form.html" target="_blank">Área Restrita</a>
-            </div>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <!-- Área Cliente -->
+        <div class="nav-cliente">
+            <a href="login_form.html" target="_blank">Área Restrita</a>
+        </div>
     </nav>
     <!-- Seção Quem Somos -->
     <section class="container-texto-generico" id="quem-somos">
@@ -174,6 +176,22 @@
                 <a href="#contacto" class="button">Contratar</a>
             </div>
         </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Entre em contacto conosco para agendar uma consulta ou tirar suas dúvidas.</p>
+        <form id="contactForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
     </section>
 
     <!-- Rodapé -->

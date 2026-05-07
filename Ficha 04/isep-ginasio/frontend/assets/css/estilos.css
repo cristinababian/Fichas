@@ -56,12 +56,12 @@
 .container-navegacao {
   text-align: center;
   /* Centraliza os links */
-  padding: 20px;
+  padding: 5px;
   /* Adiciona espaçamento interno */
 }
 
 .container-navegacao a {
-  font-size: 1.5em;
+  font-size: 1.1em;
   /* Aumenta o tamanho da fonte dos links */
   margin: 0px 50px;
   /* Espaçamento horizontal entre os links */
@@ -106,7 +106,7 @@
   /* Cor de fundo escura */
   color: white;
   /* Cor do texto */
-  padding: 40px 20px;
+  padding: 15px 20px;
   /* Espaçamento interno do rodapé */
   flex-wrap: wrap;
   /* Permite que os itens se ajustem em ecrãs pequenos */
@@ -120,7 +120,7 @@
   /* Faz o rodapé ocupar toda a largura da página */
 }
 
-ooter-section {
+.footer-section {
   flex: 1;
   /* Faz com que as secções tenham larguras iguais */
   min-width: 250px;
@@ -163,7 +163,7 @@ ooter-section {
   /* Espaçamento interno (superior/inferior e laterais) */
   text-align: center;
   /* Centraliza o texto dentro dos artigos */
-  min-height: 100vh;
+  min-height: auto;
   /* Garante altura mínima de uma janela (ecrã) */
 }
 
@@ -178,7 +178,7 @@ html {
 #quem-somos {
   text-align: center;
   /* Centra todo o conteúdo horizontalmente */
-  padding: 100px 0;
+  padding: 30px 0;
   /* Espaçamento superior e inferior de 100px */
 }
 
@@ -280,11 +280,11 @@ html {
 }
 
 section {
-  padding: 100px 40px;
+  padding: 30px 40px;
   /* Espaçamento interno nas secções (superior/inferior e laterais) */
   text-align: center;
   /* Centraliza todo o conteúdo textual por padrão */
-  min-height: 100vh;
+  min-height: auto;
   /* Garante que cada secção tenha pelo menos a altura de uma janela inteira */
 }
 
@@ -376,4 +376,47 @@ section {
 .pacote ul li {
   margin-bottom: 5px;
   /* Espaço entre cada linha da lista */
+}
+
+#contacto form {
+  display: flex;
+  /* Usa layout flexível */
+  flex-direction: column;
+  /* Organiza os elementos na vertical */
+  max-width: 500px;
+  /* Limita a largura do formulário */
+  margin: 0 auto;
+  /* Centraliza horizontalmente */
+}
+
+#contacto label {
+  margin-top: 10px;
+  /* Espaço acima de cada rótulo (label) */
+}
+
+#contacto input,
+#contacto textarea {
+  padding: 10px;
+  /* Espaço interno (dentro do campo) */
+  margin-bottom: 15px;
+  /* Espaço abaixo de cada campo */
+  border: 1px solid #ddd;
+  /* Borda cinzenta clara */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+}
+
+#contacto button {
+  background-color: #ddd;
+  /* Cor de fundo do botão (cinzento claro) */
+  color: #fff;
+  /* Cor do texto do botão (branco) */
+  padding: 10px 20px;
+  /* Espaçamento interno do botão */
+  border: none;
+  /* Remove a borda padrão */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  cursor: pointer;
+  /* Cursor tipo "mão" ao passar por cima */
 }
